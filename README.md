@@ -14,8 +14,12 @@ Fig. 1 Reconstructed multispectral images of a fern root section. Left: an RGB i
 <p align="center">
 <img src="Result/Images/blood_sample_recon.png" width="600">
 </p>
-Fig. 2 Imaging results of blood sample. Upper row: reconstruction of fresh blood sample. lower row: reconstruction of the blood sample settled in the air for 5 minutes. The oxygen
-saturation (OS) of the selected regions were calculated using the reconstructed spectra. A reconstructed hyperspectral video of moving red blood cells is shown in [Video1].
+Fig. 2 Imaging results of blood sample. Upper row: reconstruction of fresh blood sample. lower row: reconstruction of the blood sample settled in the air for 5 minutes. The oxygen saturation (OS) of the selected regions were calculated using the reconstructed spectra. 
+
+<p align="center">
+<img src="Result/Images/Media.gif" width="800">
+</p>
+Fig. 3 A reconstructed multispectral video of moving red blood cells.
 
 ## Usage
 ### Download the SMEM repository and model file
