@@ -1,6 +1,6 @@
 # Snapshot Multispectral Endomicriscopy (SMEM)
 This repository contains the codes for paper **Snapshot Multispectral Endomicriscopy** (***Optics Letter (2020)***) by [Ziyi Meng](https://github.com/mengziyi64), Mu Qiao, Jiawei Ma, Zhenming Yu, Kun Xu, [Xin Yuan](https://www.bell-labs.com/usr/x.yuan).
-[[pdf]](https://www.osapublishing.org/DirectPDFAccess/3261290B-4E1F-4952-97BCC064EEBA001D_ads393213.pdf?da=1&adsid=393213&journal=3&seq=0&mobile=no)
+[[pdf]](https://www.osapublishing.org/DirectPDFAccess/E232E79A-630F-4A1A-BA414C23A65AC2F0_ads393213.pdf?da=1&adsid=393213&journal=3&seq=0&mobile=no)
 
 ## Overviewer
 This source code provides a end-to-end DNN for the reconstruction of multisprctral endomicroscopy images captured by a snapshot compressiver imager. This snapshot compressiver imager is based on [SD-CASSI](https://www.osapublishing.org/ao/abstract.cfm?uri=ao-47-10-B44) prototype system, in which 3D spectral cubes can be recovered from captured 2D compressive measurements by optimazation algorithms or DNNs. The real cuptured data has been included in this repository.
