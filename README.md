@@ -26,7 +26,7 @@ git clone https://github.com/mengziyi64/SMEM
 ```
 or download the [zip file](https://github.com/mengziyi64/SMEM/archive/master.zip) manually.
 
-3. Download the model file (2.16 GB) via [Google Drive] (https://drive.google.com/file/d/1B2bDLyeb3fQqoZSqO94evGQHdpb9hsq4/view?usp=sharing) or [One Drive](https://1drv.ms/u/s!Au_cHqZBKiu2gYEvyPAm-tqXy35Lwg?e=6SaQcH) or [Baidu Drive (pw:k7wg)] (https://pan.baidu.com/s/1dEKjnrLs2Lo0lCyHt4wo1g) and put the file into path 'Result/Model-Condig/Model-Chechpoint1/'.
+3. Download the model file (2.16 GB) via [Google Drive](https://drive.google.com/file/d/1B2bDLyeb3fQqoZSqO94evGQHdpb9hsq4/view?usp=sharing) or [One Drive](https://1drv.ms/u/s!Au_cHqZBKiu2gYEvyPAm-tqXy35Lwg?e=6SaQcH) or [Baidu Drive (pw:k7wg)](https://pan.baidu.com/s/1dEKjnrLs2Lo0lCyHt4wo1g) and put the file into path 'Result/Model-Condig/Model-Chechpoint1/'.
 
 ### Testing on real data
 Run **test.py** to reconstruct 5 real datasets (blood sample1, blood sample2, dog olfactory membrane, fern root, resolution target). The results will be saved in 'Result/Testing-Result/' in the MatFile format.
