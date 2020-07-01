@@ -3,5 +3,5 @@ This repository contains the codes for paper **Snapshot Multispectral Endomicris
 [[pdf]](https://www.osapublishing.org/DirectPDFAccess/3261290B-4E1F-4952-97BCC064EEBA001D_ads393213.pdf?da=1&adsid=393213&journal=3&seq=0&mobile=no)
 
 <p align="center">
-<img src="Result/Images/fern_root_recon.png" width="800">
+<img src="Result/Images/fern_root_recon.png" width="1200">
 </p>
