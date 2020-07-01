@@ -16,3 +16,12 @@ Fig. 1 Reconstructed multispectral images of a fern root section. Left: an RGB i
 </p>
 Fig. 2 Imaging results of blood sample. Upper row: reconstruction of fresh blood sample. lower row: reconstruction of the blood sample settled in the air for 5 minutes. The oxygen
 saturation (OS) of the selected regions were calculated using the reconstructed spectra. A reconstructed hyperspectral video of moving red blood cells is shown in [Video1].
+
+## Usage
+### Download the SMEM repository and model file
+0. Requirements are Python 3.6 and Tensorflow 1.13.
+1. Download this repository via git
+```
+git clone https://github.com/liuyang12/DeSCI
+```
+or download the [zip file](https://github.com/liuyang12/DeSCI/archive/master.zip) manually.
