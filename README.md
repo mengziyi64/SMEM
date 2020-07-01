@@ -8,7 +8,7 @@ This repository contains the codes for paper **Snapshot Multispectral Endomicris
 Fig. 1 Reconstructed multispectral images of a fern root section. Left: an RGB image (top) and the compressed measurement (bottom) of the sample. Middle: multispectral images with 24 spectral channels reconstructed from the developed DNN model. Right: reconstructed spectra of two selected regions indicated in the RGB image.
 
 <p align="center">
-<img src="Result/Images/blood_sample.png" width="1200">
+<img src="Result/Images/blood_sample_recon.png" width="1000">
 </p>
 Fig. 2 Imaging results of blood sample. Upper row: reconstruction of fresh blood sample. lower row: reconstruction of the blood sample settled in the air for 5 minutes. The oxygen
 saturation (OS) of the selected regions were calculated using the reconstructed spectra. A reconstructed hyperspectral video of moving red blood cells is shown in [Video1].
