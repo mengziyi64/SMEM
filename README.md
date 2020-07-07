@@ -1,6 +1,6 @@
 # Snapshot Multispectral Endomicriscopy (SMEM)
 This repository contains the codes for paper **Snapshot Multispectral Endomicriscopy** (***Optics Letter (2020)***) by [Ziyi Meng](https://github.com/mengziyi64), Mu Qiao, Jiawei Ma, Zhenming Yu, Kun Xu, [Xin Yuan](https://www.bell-labs.com/usr/x.yuan).
-[[pdf]]() [[data (Google Drive)]](https://drive.google.com/drive/folders/1_j7iCS6phfYd4ecbGy9cjPppnU6lAn5K?usp=sharing)  [[data (One Drive)]](https://1drv.ms/u/s!Au_cHqZBKiu2gYEx13twAfSXQz7T-A?e=nigUp7)  [[data (Baidu Drive pw:drnu)]](https://pan.baidu.com/s/1Irf7U4oOjt6kDjB3G-zwQg)
+[[pdf]](https://www.osapublishing.org/ol/abstract.cfm?uri=ol-45-14-3897)  [[data (One Drive)]](https://1drv.ms/u/s!Au_cHqZBKiu2gYEx13twAfSXQz7T-A?e=nigUp7)  [[data (Baidu Drive pw:drnu)]](https://pan.baidu.com/s/1Irf7U4oOjt6kDjB3G-zwQg)
 
 ## Overviewer
 This source code provides a end-to-end DNN for the reconstruction of multisprctral endomicroscopy images captured by a snapshot compressiver imager. This snapshot compressiver imager is based on [SD-CASSI](https://www.osapublishing.org/ao/abstract.cfm?uri=ao-47-10-B44) prototype system, in which 3D spectral cubes can be recovered from captured 2D compressive measurements by optimazation algorithms or DNNs. The real cuptured data has been included in this repository.
@@ -41,7 +41,17 @@ Run **test.py** to reconstruct 5 real datasets (blood sample1, blood sample2, do
 2. Run **train.py**.
 
 ## Citation
-
+@article{Meng_2020_OL_SMEM,
+author = {Ziyi Meng and Mu Qiao and Jiawei Ma and Zhenming Yu and Kun Xu and Xin Yuan},
+journal = {Opt. Lett.},
+number = {14},
+pages = {3897--3900},
+publisher = {OSA},
+title = {Snapshot multispectral endomicroscopy},
+volume = {45},
+month = {Jul},
+year = {2020},
+}
 ## Contact
 Ziyi Meng, Beijing University of Posts and Telecommunications, Email: mengziyi@bupt.edu.cn, zm233@njit.edu
 
