@@ -3,7 +3,7 @@ This repository contains the codes for paper **Snapshot Multispectral Endomicris
 [[pdf]](https://www.osapublishing.org/ol/abstract.cfm?uri=ol-45-14-3897)  [[data (One Drive)]](https://1drv.ms/u/s!Au_cHqZBKiu2gYEx13twAfSXQz7T-A?e=nigUp7)  [[data (Baidu Drive pw:drnu)]](https://pan.baidu.com/s/1Irf7U4oOjt6kDjB3G-zwQg)
 
 ## Overviewer
-This source code provides a end-to-end DNN for the reconstruction of multisprctral endomicroscopy images captured by a snapshot compressiver imager. This snapshot compressiver imager is based on [SD-CASSI](https://www.osapublishing.org/ao/abstract.cfm?uri=ao-47-10-B44) prototype system, in which 3D spectral cubes can be recovered from captured 2D compressive measurements by optimazation algorithms or DNNs. The real cuptured data has been included in this repository.
+This source code provides a end-to-end DNN for the reconstruction of multisprctral endomicroscopy images captured by a snapshot compressiver imager. This snapshot compressiver imager is based on [SD-CASSI](https://www.osapublishing.org/ao/abstract.cfm?uri=ao-47-10-B44) prototype system, in which 3D spectral cubes can be recovered from captured 2D compressive measurements by optimazation algorithms or DNNs. The real cuptured data has been included in this repository. In addition, the code includes two optimization iterition algorthms [ADMM-TV](https://ieeexplore.ieee.org/abstract/document/7532817) and [TwIST](https://ieeexplore.ieee.org/abstract/document/4358846), in which ADMM-TV can provide similar results to GAP-TV appeared in paper .
 
 ## Results
 <p align="center">
@@ -23,7 +23,7 @@ Fig. 3 A reconstructed multispectral video of moving red blood cells.
 
 ## Usage
 ### Download the SMEM repository and model file
-0. Requirements are Python 3.6 and Tensorflow 1.13.
+0. Requirements are Python 3 and Tensorflow 1.13 for DNN, Matlab for ADMM-TV and TwIST.
 1. Download this repository via git
 ```
 git clone https://github.com/mengziyi64/SMEM
@@ -39,6 +39,11 @@ Run **test.py** to reconstruct 5 real datasets (blood sample1, blood sample2, do
 0. Put multispectral datasets (Ground truth) into corrsponding path, i.e., 'Data/Training_truth/' for training data and 'Data/Valid_truth/' for validation data. For our setting, the data should be scaled to 0-1 and with a size of 660×660×24.
 1. Adjust training parameter by modify **Model/Config.yaml**.
 2. Run **train.py**.
+
+### Other algorithms (ADMM-TV and TwIST)
+Run **main_admmtv.py** to do reconstruction by ADMM-TV. 
+
+Run **main_twist.py** to do reconstruction by TwIST.
 
 ## Citation
 ```
