@@ -41,17 +41,19 @@ Run **test.py** to reconstruct 5 real datasets (blood sample1, blood sample2, do
 2. Run **train.py**.
 
 ## Citation
+```
 @article{Meng_2020_OL_SMEM,
-author = {Ziyi Meng and Mu Qiao and Jiawei Ma and Zhenming Yu and Kun Xu and Xin Yuan},
-journal = {Opt. Lett.},
-number = {14},
-pages = {3897--3900},
-publisher = {OSA},
-title = {Snapshot multispectral endomicroscopy},
-volume = {45},
-month = {Jul},
-year = {2020},
+   author = {Ziyi Meng and Mu Qiao and Jiawei Ma and Zhenming Yu and Kun Xu and Xin Yuan},
+   journal = {Opt. Lett.},
+   number = {14},
+   pages = {3897--3900},
+   publisher = {OSA},
+   title = {Snapshot multispectral endomicroscopy},
+   volume = {45},
+   month = {Jul},
+   year = {2020}
 }
+```
 ## Contact
 Ziyi Meng, Beijing University of Posts and Telecommunications, Email: mengziyi@bupt.edu.cn, zm233@njit.edu
 
