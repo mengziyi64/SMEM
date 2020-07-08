@@ -41,9 +41,9 @@ Run **test.py** to reconstruct 5 real datasets (blood sample1, blood sample2, do
 2. Run **train.py**.
 
 ### Other algorithms (ADMM-TV and TwIST)
-Run **main_admmtv.py** to do reconstruction by ADMM-TV. 
+Run **main_admmtv.m** to do reconstruction by ADMM-TV. 
 
-Run **main_twist.py** to do reconstruction by TwIST.
+Run **main_twist.m** to do reconstruction by TwIST.
 
 ## Citation
 ```
