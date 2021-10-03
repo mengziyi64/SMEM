@@ -59,6 +59,6 @@ Run **test.py** to reconstruct 5 real datasets (blood sample1, blood sample2, do
 }
 ```
 ## Contact
-Ziyi Meng, Beijing University of Posts and Telecommunications, Email: mengziyi@bupt.edu.cn, zm233@njit.edu
+Ziyi Meng, Beijing University of Posts and Telecommunications, Email: mengziyi64@163.com
 
 Xin Yuan, Bell Labs, Email: xyuan@bell-labs.com
